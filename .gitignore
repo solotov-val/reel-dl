@@ -1,0 +1,15 @@
+# Downloads made while testing
+*.mp4
+*.mp3
+*.part
+*.ytdl
+
+# Release archives
+*.zip
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

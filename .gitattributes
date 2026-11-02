@@ -1,0 +1,6 @@
+* text=auto
+
+# Windows PowerShell 5.1 reads scripts without a BOM as ANSI, so the .ps1 files are stored as
+# UTF-8 with BOM. Git keeps the BOM as is; only the line endings are normalized here.
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
